@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            width: 1320px;
+            margin: 0 auto;
+        }
+
+        .main {
+            display: flex;
+        }
+
+        .left-side {
+            width: 70%;
+            text-align: right;
+        }
+
+        img {}
+
+        .right-side {
+            width: 30%;
+            margin-top: 140px;
+            margin-left: 30px;
+        }
+
+        .button .down a {
+            color: blue !important;
+            font-weight: 600;
+        }
+
+        .button .btn-1 a {
+            display: inline-block;
+            text-decoration: none;
+            background: #ddd;
+            padding: 7px 20px;
+            margin-bottom: 10px;
+            text-align: center;
+            color: #000;
+            border: 1px solid #868282;
+            border-radius: 5px;
+            font-size: 20px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        input {
+            margin-top: 20px;
+        }
+
+        .submit {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="banner">
+        <div class="container">
+            <div class="main">
+                <div class="left-side">
+                    <img src="project-img.png" alt="project-img">
+                </div>
+                <div class="right-side">
+                    <div class="button">
+                        <div class="btn-1"><a href="#">Take screenshot</a></div>
+                        <div class="btn-1 down"> <a href="#">DOWNLOAD ALL</a></div>
+                        <div class="btn-1"> <a href="#">Change camera</a></div>
+                        <input class="form-control" type="file">
+
+                        <div class="btn-1 submit"> <a href="#">Submit Query</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
